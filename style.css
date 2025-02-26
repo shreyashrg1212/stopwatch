@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Liter&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.stopwatch {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('photo/background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 2);
+}
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
