@@ -8,7 +8,7 @@ html, body {
 }
 
 .stopwatch {
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('photo/background.png');
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('background.png');
     background-size: cover;
     background-position: center;
     text-align: center;
